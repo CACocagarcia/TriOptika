@@ -11,3 +11,5 @@ Main Interface Technologies: HTML5,JavaScript,CSS3,mediaQueries,BootStrap
 You will also notice that we have several other files: Processing files -> Matching Art Edition of the Hackathon -> We built tools in processing to manipulate images. The main takeaway was the tool to alter an image with code to change the color of the image at the pixel level to be able to transform the image of an art piece to an image that can be used for the Color Blindness Exam.
 
 Later I will upload the Python work of a team-mate were he built a neural network to predict the impact that our product will produce to the stock market in regards of the medical industry. 
+
+There's also a weather API on the interface. the weather information was obtained by openweathermap.com 

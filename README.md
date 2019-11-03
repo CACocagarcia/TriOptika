@@ -1,15 +1,27 @@
-# TriOptika
-Interface for Physicians and Ophthalmologist to perform several visual acuity tests 
-This is just the first demo for this project. I am uploading this repository as for right now, to be able to register to the competition for VandyHacks VI Art Edition
+##TriOptika 
 
-Purpose of the Project: to create an interface that physicians and ophtalmologist can use to perfom visual acuity exams on a patient. NOTE: this is just the interface, this is not an invasive product towards the patient. We are providing the graphics to the ophtalmologists to use to perform the exams. 
+**Project Inspiration**
+>>Carlos Coca: In past interactions with friends that are physicians and doctors, I have asked them questions on what they would like to see an improvement on. A couple of them have expressed that the methods and tools that are used to perform visual acuity exams are not the best. In those conversations I identified a problem: hardware/software used to conduct visual acuity exams is very expensive and inconvenient. The solution that I came in mind, is a solution that can be sustainable and applicable at a global scale. The solution consisted on building an interface that is not invasive towards the patient, that the physicians and ophthalmologist can use to conduct visual acuity exams. This interface is meant to only display the "canvases" that are needed to perform specific exams like: Snellen Test, EnChroma Color Blindness Test, Tumbling E, etc. 
+The goal is to develop a product that will create a market competition against the current ophthalmology hardware equipment and to be humanitarian by building a tool that can reshape the way that physicians could provide assistance to humans. The interface can revolutionize the accessibility and efficiency to conduct visual acuity tests.
 
-Busines Model we are trying to tackle: Physicians and ophalmologists require expensive hardware and software for the visual graphics to perform eye examinations. We are builidng an efficient interface that can adapt to any screen monitor that people from the medical field can use to perfrom visual acuity exams. 
-The program can also be loaded to a raspberry pi. this is important because like that, doctors can go on medical trips to rural areas around the world, and they will only need a monitor to plug in the raspberry pi and run the interface. 
+**Art Inspiration**
+The theme for this Hackathon is "Art Edition," "Code a Masterpiece." We saw the opportunity to incorporate art techniques into this project. For example, in the Color Blindness section, instead of using the regular numbers and letters to be identified, we decided to modify art pieces with actual code instead. We saw the opportunity that we could use Processing to create our own and unique tools to manipulate images. 
 
-Main Interface Technologies: HTML5,JavaScript,CSS3,mediaQueries,BootStrap
-You will also notice that we have several other files: Processing files -> Matching Art Edition of the Hackathon -> We built tools in processing to manipulate images. The main takeaway was the tool to alter an image with code to change the color of the image at the pixel level to be able to transform the image of an art piece to an image that can be used for the Color Blindness Exam.
+**What was learned**
+>> Carlos Coca: Image pixel manipulation using Processing. Working with weather & NASA API, Image manipulation using processing, 
+>> Liza Rodriguez: Different technologies can implement to achieve the same result. 
+>> Tasha Lane: How to build image manipulation tools using CSS/HTML5, Large scale scrum, How businesses analytics can help small innovations 
+>> Gavin Swofford: How to better code a responsive website
 
-Later I will upload the Python work of a team-mate were he built a neural network to predict the impact that our product will produce to the stock market in regards of the medical industry. 
+**How You Built It**
+- Main Interface: Responsive Web: HTML5/CSS3, JavaScript, BootStrap, mediaQueries
+- Image Editing: Built Image Manipulation tools using Processing: 1) Tool 1: Allows to change the color of the image by pixel ; 2) Tool 2: This tool allows the user to load an image, and with the established controls, the user is able to draw on top of the image. Once the user is done drawing, then the user can export the code that will display the image that the user drew. We also used Adoble Illustrator and Photoshop
+- Stock Market Prediction: We used Pythong to build a Neural Network that predicts the impact in the stock market once out product is introduced to the market. RNN_Market_Outlook
+- Used API from Openweather map to input the weather in our interface 
 
-There's also a weather API on the interface. the weather information was obtained by openweathermap.com 
+**Challenges**
+>> Carlos Coca: To be able to set all the colors in an image to change to a specific set of numbers. We were not able to register out domain because at first the redeem code did not work and then we never got an email from with the confirmation. So I went to my university (Trevecca University) and I spin up a VM on a server, downloaded Apache to host the website, but in the end, I was never able to successfully host the website at my university. The idea was to spin it up there and access to it here at Vanderbilt premisses. I also had difficulty in maintaining proper content fluidity. JavaScript was also challenging to use. Balancing being a mentor and a hacker. 
+>> Liza Rodriguez: Time period, co-working with different technology, responsive web-design
+>> Gavin Swofford: Staying awake, working through problems on tensor flow
+>> Tasha Lane: Time period, remaining focused on the project while trying to network
+

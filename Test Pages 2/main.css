@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row {
+	
+align-content: center;
+margin-top: 3%;
+	margin-left: 5%;
+		margin-right: 5%;
+	
+}
+
+
+.snellen {
+	
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	position: relative;
+}
+
+.test  {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	position: fixed;
+	max-width: 70%;
+     max-height: 50%;  
+	
+}
+.arrow {
+	
+	margin-top: 5%;
+	
+	margin-left: 5%;
+
+}
+
+
+.col-lg-4 {
+	
+	align-content: center;
+}
+
+
+.bottom {
+	
+	margin-bottom: 5%;
+}

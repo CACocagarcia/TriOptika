@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif; 
+}
+  
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:transparent;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+  }
+   
+  .sidebar a:hover {
+    background-color: #0072b2;
+    color: white;
+  }
+  
+  div.content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo{
+    margin-top: 20px;
+    width: 50% ;
+    height:auto;
+  }
+
+ /* Create three equal columns that floats next to each other */
+.column {
+    float: center;
+    width: 15.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 700px) {
+    .logo {
+      width: 10%;
+      height: auto;
+    }
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      background-color: #0072b2;
+      text-align: center;
+    }
+    .logo{float: left;}
+    .sidebar a {float: right;}
+    div.content {margin-left: 0;}
+}
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+iframe {
+	align-self: center;
+}

@@ -1,0 +1,125 @@
+/*
+body{
+    background-color: #0072b2;
+}
+.global1{
+    width: 100%;
+    height: auto;
+}
+
+.background{
+    max-width: 100%;
+    height: auto;
+}
+*/ 
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif; 
+  }
+  .bottom{
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .in {
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 22px;
+  }
+
+.weather-container{
+  color: white;
+  position: absolute;
+  padding: 1em;
+  bottom: 8px;
+  right: 16px;
+  background: #0072b2;
+  text-align: center;
+}
+
+
+  .centered {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:transparent;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+  }
+   
+  .sidebar a:hover {
+    background-color: #0072b2;
+    color: white;
+  }
+  
+  div.content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo{
+    margin-top: 20px;
+    width: 50% ;
+    height:auto;
+  }
+  @media screen and (max-width: 700px) {
+    .logo {
+      width: 10%;
+      height: auto;
+    }
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      background-color: #0072b2;
+      text-align: center;
+    }
+    .logo{float: left;}
+    .sidebar a {float: right;}
+    div.content {margin-left: 0;}
+    .in {
+      position: absolute;
+      top: 55px;
+      right: 16px;
+    }
+
+    .weather-container{
+      position: absolute;
+      color: white;
+      bottom: 8px;
+      right: 16px;
+      background:#0072b2;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  
